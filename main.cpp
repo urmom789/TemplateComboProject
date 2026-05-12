@@ -76,6 +76,8 @@ int main()
     });
 
   for (const PlayingCard &card : suitCards){
-    cout << to_string(card) 
+    cout << to_string(card) << " ";
   }
+
+  cout << endl << end
 }
