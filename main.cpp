@@ -28,5 +28,5 @@ int main()
   }
 
   cout << endl << endl;
-  cout << ""
+  cout << "Task 2: Count the Spades"
 }
