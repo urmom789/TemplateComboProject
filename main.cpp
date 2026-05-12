@@ -85,5 +85,9 @@ int main()
 
   set<int> ranks;
 
-  for (const PlayingCard &)
+  for (const PlayingCard &card : cards){
+    ranks.insert(card.rank);
+  }
+
+  for 
 }
