@@ -90,6 +90,8 @@ int main()
   }
 
   for (int rank : ranks){
-    cout
+    cout << rank << " ";
   }
+
+  cout << r
 }
