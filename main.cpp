@@ -55,6 +55,6 @@ int main()
 
   sort(
     rankCards.begin(), rankCards.end(),
-    [](const PlayingCard )
+    [](const PlayingCard &a, const PlayingCard &b)
   )
 }
