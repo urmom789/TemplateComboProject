@@ -53,5 +53,7 @@ int main()
 
   vector<PlayingCard> rankCards = cards;
 
-  
+  sort(
+    rank
+  )
 }
