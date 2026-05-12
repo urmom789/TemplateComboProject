@@ -21,7 +21,7 @@ HEADERS = PlayingCard.h
 # list .cpp files here according to main program, tests, or both
 PROGRAM_FILES = main.cpp
 TEST_FILES = tests.cpp
-SHARED_FILES = 
+SHARED_FILES = PlayingCard.cpp
 
 .PHONY: all
 all: program.exe tests.exe
