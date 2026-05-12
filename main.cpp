@@ -41,7 +41,9 @@ int main()
   int diamondTotal = accumulate(
     cards.begin(), cards.end(), 0,
     [](int total, const PlayingCard &card){
-      if (card.suit == Suit::)
+      if (card.suit == Suit::Diamonds){
+        return total + card.rank;
+      }
     }
   )
 }
