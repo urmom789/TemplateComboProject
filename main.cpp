@@ -76,7 +76,8 @@ int main()
     [](const PlayingCard &a, const PlayingCard &b){
       auto suitValue = [](Suit suit){
         switch (suit){
-          case Suit::Clubs:
+          case Suit::Clubs: return 0;
+          
         }
       }
     });
