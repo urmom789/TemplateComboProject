@@ -19,5 +19,7 @@ int main()
     cards.push_back(makeCard(input));
   }
 
-  cout << Task 1: Print the Hearts
+  cout << "Task 1: Print the Hearts" << endl;
+
+  
 }
