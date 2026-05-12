@@ -54,6 +54,7 @@ int main()
   vector<PlayingCard> rankCards = cards;
 
   sort(
-    rankCards.begin(), ran
+    rankCards.begin(), rankCards.end(),
+    [](const PlayingCard )
   )
 }
