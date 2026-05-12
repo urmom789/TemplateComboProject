@@ -78,7 +78,8 @@ int main()
         switch (suit){
           case Suit::Clubs: return 0;
           case Suit::Diamonds: return 1;
-          case Suit::Hearts:
+          case Suit::Hearts: return 2;
+          case Suit::
         }
       }
     });
