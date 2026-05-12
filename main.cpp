@@ -33,7 +33,7 @@ int main()
   int spadeCount = count_if(
     cards.begin(), cards.end(),
     [](const PlayingCard &card){
-      return card.suit == suit::Shades
+      return card.suit == Suit::Spades;
     }
   )
 }
