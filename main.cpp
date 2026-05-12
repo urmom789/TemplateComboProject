@@ -81,5 +81,5 @@ int main()
 
   cout << endl << endl;
 
-  cout << 
+  cout << "Task 6: Print out the unique ranks" << endl
 }
