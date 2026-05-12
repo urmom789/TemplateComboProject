@@ -79,10 +79,10 @@ int main()
           case Suit::Clubs: return 0;
           case Suit::Diamonds: return 1;
           case Suit::Hearts: return 2;
-          case Suit::
+          case Suit::Spades: return 3;
         }
       }
-    });
+    };
 
   for (const PlayingCard &card : suitCards){
     cout << to_string(card) << " ";
