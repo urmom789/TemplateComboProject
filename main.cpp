@@ -36,5 +36,7 @@ int main()
       return card.suit == Suit::Spades;
     });
   
-  cout << 
+  cout << spadeCount << endl << endl;
+
+  int diamondTotal
 }
