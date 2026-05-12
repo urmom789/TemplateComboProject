@@ -70,6 +70,7 @@ int main()
   vector<PlayingCard> suitCards = cards;
 
   sort(
-    suitCards.begin(), sui
+    suitCards.begin(), suitCards.end(),
+    [](const PlayingCard )
   )
 }
