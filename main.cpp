@@ -39,6 +39,6 @@ int main()
   cout << spadeCount << endl << endl;
 
   int diamondTotal = accumulate(
-    
+    cards.begin(), cards.end(), 0
   )
 }
