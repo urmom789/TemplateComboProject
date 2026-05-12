@@ -16,6 +16,6 @@ int main()
   string input;
 
   while (cin >> input){
-    cards.push_back
+    cards.push_back(makeCard(input));
   }
 }
