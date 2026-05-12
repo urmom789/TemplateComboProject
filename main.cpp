@@ -22,7 +22,7 @@ int main()
   cout << "Task 1: Print the Hearts" << endl;
 
   for (const PlayingCard &card : cards){
-    if (card.suit == suit::Hearts){
+    if (card.suit == Suit::Hearts){
       cout << to_string(card) << " ";
     }
   }
@@ -65,5 +65,5 @@ int main()
 
   cout << endl << endl;
 
-  
+
 }
