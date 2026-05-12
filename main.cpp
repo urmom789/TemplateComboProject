@@ -82,7 +82,8 @@ int main()
           case Suit::Spades: return 3;
         }
       };
-      return suitValue(a.suit)
+      return suitValue(a.suit) < suitValue(b.suit);
+    });
 
   for (const PlayingCard &card : suitCards){
     cout << to_string(card) << " ";
