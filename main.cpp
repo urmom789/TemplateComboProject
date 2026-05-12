@@ -79,5 +79,7 @@ int main()
     cout << to_string(card) << " ";
   }
 
-  cout << endl << end
+  cout << endl << endl;
+
+  cout << 
 }
