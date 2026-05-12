@@ -74,7 +74,7 @@ int main()
   sort(
     suitCards.begin(), suitCards.end(),
     [](const PlayingCard &a, const PlayingCard &b){
-      return a.suit < b.suit;
+      auto suitValue = [](Suit suit)
     });
 
   for (const PlayingCard &card : suitCards){
