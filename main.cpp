@@ -23,7 +23,8 @@ int main()
 
   for (const PlayingCard &card : cards){
     if (card.suit == suit::Hearts){
-      
+      cout << to_string(card) << " ";
     }
+    
   }
 }
