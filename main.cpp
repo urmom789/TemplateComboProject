@@ -95,5 +95,7 @@ int main()
 
   cout << endl << endl;
 
-  cout << "tank"
+  cout << "Task 7: Print the counts of each rank" << endl;
+
+  
 }
