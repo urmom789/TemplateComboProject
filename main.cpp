@@ -59,5 +59,7 @@ int main()
       return a.rank < b.rank;
     });
   
-  for (const PlayingCard &card : rankCards)
+  for (const PlayingCard &card : rankCards){
+    cout << to_string(card) << " ";
+  }
 }
