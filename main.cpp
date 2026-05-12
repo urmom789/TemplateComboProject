@@ -81,7 +81,6 @@ int main()
           case Suit::Hearts: return 2;
           case Suit::Spades: return 3;
         }
-      }
     };
 
   for (const PlayingCard &card : suitCards){
