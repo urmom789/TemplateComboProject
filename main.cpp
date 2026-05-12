@@ -44,6 +44,7 @@ int main()
       if (card.suit == Suit::Diamonds){
         return total + card.rank;
       }
+      return total;
     }
   )
 }
