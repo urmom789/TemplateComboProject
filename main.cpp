@@ -106,5 +106,4 @@ int main()
   for (const auto &pair : counts){
     cout << "Rank " << pair.first << ": " << pair.second << endl;
   }
-  
 }
