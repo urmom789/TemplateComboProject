@@ -82,7 +82,7 @@ int main()
           case Suit::Spades: return 3;
         }
       };
-      return 
+      return suitValue(a.suit)
 
   for (const PlayingCard &card : suitCards){
     cout << to_string(card) << " ";
