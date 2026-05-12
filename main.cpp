@@ -62,4 +62,8 @@ int main()
   for (const PlayingCard &card : rankCards){
     cout << to_string(card) << " ";
   }
+
+  cout << endl << endl;
+
+  
 }
