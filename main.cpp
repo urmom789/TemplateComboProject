@@ -45,6 +45,7 @@ int main()
         return total + card.rank;
       }
       return total;
-    }
-  )
+    });
+
+  cout 
 }
