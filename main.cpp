@@ -97,5 +97,7 @@ int main()
 
   cout << "Task 7: Print the counts of each rank" << endl;
 
-  
+  map<int, int> counts;
+
+  for (const PlayingCard &card : cards)
 }
