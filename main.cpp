@@ -11,5 +11,9 @@ using namespace std;
 
 int main()
 {
-  vector 
+  vector<PlayingCard> cards;
+
+  string input;
+
+  while
 }
