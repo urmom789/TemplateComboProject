@@ -15,5 +15,7 @@ int main()
 
   string input;
 
-  while
+  while (cin >> input){
+    cards.push_back
+  }
 }
