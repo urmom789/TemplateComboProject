@@ -47,5 +47,7 @@ int main()
       return total;
     });
 
-  cout 
+  cout << diamondTotal << endl << endl;
+
+  
 }
