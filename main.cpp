@@ -100,6 +100,10 @@ int main()
   map<int, int> counts;
 
   for (const PlayingCard &card : cards){
-    counts[card.rank]
+    counts[card.rank]++;
+  }
+
+  for (const auto &pair : counts){
+    
   }
 }
