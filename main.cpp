@@ -89,5 +89,7 @@ int main()
     ranks.insert(card.rank);
   }
 
-  for 
+  for (int rank : ranks){
+    cout
+  }
 }
