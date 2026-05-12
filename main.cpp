@@ -38,7 +38,7 @@ int main()
   
   cout << spadeCount << endl << endl;
 
-  cout << "Task 3: Print the totla value of diamonds" << endl;
+  cout << "Task 3: Print the total value of diamonds" << endl;
 
   int diamondTotal = accumulate(
     cards.begin(), cards.end(), 0,
