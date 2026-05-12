@@ -18,4 +18,6 @@ int main()
   while (cin >> input){
     cards.push_back(makeCard(input));
   }
+
+  cout << Task 1: Print the Hearts
 }
