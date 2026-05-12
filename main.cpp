@@ -81,7 +81,8 @@ int main()
           case Suit::Hearts: return 2;
           case Suit::Spades: return 3;
         }
-    };
+      };
+      return 
 
   for (const PlayingCard &card : suitCards){
     cout << to_string(card) << " ";
