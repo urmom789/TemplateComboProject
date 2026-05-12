@@ -31,6 +31,7 @@ int main()
   cout << "Task 2: Count the Spades" << endl;
 
   int spadeCount = count_if(
-    cards.begin(), cards.end()[]
+    cards.begin(), cards.end(),
+    []
   )
 }
