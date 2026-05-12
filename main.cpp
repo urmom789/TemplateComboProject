@@ -75,5 +75,7 @@ int main()
       return a.suit < b.suit;
     });
 
-  for (const PlayingCard &card : suitCards)
+  for (const PlayingCard &card : suitCards){
+    cout << to_string(card) 
+  }
 }
