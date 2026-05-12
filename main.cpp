@@ -84,4 +84,6 @@ int main()
   cout << "Task 6: Print out the unique ranks" << endl;
 
   set<int> ranks;
+
+  for (const PlayingCard &)
 }
