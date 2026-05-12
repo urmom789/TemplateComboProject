@@ -57,6 +57,6 @@ int main()
     rankCards.begin(), rankCards.end(),
     [](const PlayingCard &a, const PlayingCard &b){
       return a.rank < b.rank;
-    }
-  )
+    });
+  
 }
