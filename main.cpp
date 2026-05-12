@@ -99,5 +99,7 @@ int main()
 
   map<int, int> counts;
 
-  for (const PlayingCard &card : cards)
+  for (const PlayingCard &card : cards){
+    counts[card.rank]
+  }
 }
