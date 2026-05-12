@@ -65,5 +65,5 @@ int main()
 
   cout << endl << endl;
 
-  cout << 'Task 5L Print out the cards in suit order" << endl'
+  cout << "Task 5L Print out the cards in suit order"'
 }
