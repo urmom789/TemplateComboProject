@@ -77,7 +77,8 @@ int main()
       auto suitValue = [](Suit suit){
         switch (suit){
           case Suit::Clubs: return 0;
-          case Suit::Diamonds
+          case Suit::Diamonds: return 1;
+          case Suit::Hearts:
         }
       }
     });
