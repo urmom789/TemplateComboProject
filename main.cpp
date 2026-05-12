@@ -69,5 +69,7 @@ int main()
 
   vector<PlayingCard> suitCards = cards;
 
-  sort
+  sort(
+    suitCards.begin(), sui
+  )
 }
