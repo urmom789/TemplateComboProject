@@ -49,5 +49,7 @@ int main()
 
   cout << diamondTotal << endl << endl;
 
-  cout << "Task 4: Print the cards in rank order"
+  cout << "Task 4: Print the cards in rank order" << endl;
+
+  vector
 }
