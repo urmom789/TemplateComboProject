@@ -71,6 +71,8 @@ int main()
 
   sort(
     suitCards.begin(), suitCards.end(),
-    [](const PlayingCard )
+    [](const PlayingCard &a, const PlayingCard &b){
+      
+    }
   )
 }
