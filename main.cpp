@@ -25,6 +25,9 @@ int main()
     if (card.suit == suit::Hearts){
       cout << to_string(card) << " ";
     }
-    
   }
+
+  cout << endl << endl;
+
+  
 }
