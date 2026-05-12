@@ -22,6 +22,8 @@ int main()
   cout << "Task 1: Print the Hearts" << endl;
 
   for (const PlayingCard &card : cards){
-    if card.
+    if (card.suit == suit::Hearts){
+      
+    }
   }
 }
