@@ -81,5 +81,7 @@ int main()
 
   cout << endl << endl;
 
-  cout << "Task 6: Print out the unique ranks" << endl
+  cout << "Task 6: Print out the unique ranks" << endl;
+
+  set<int> ranks;
 }
