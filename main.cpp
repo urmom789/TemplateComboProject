@@ -38,5 +38,7 @@ int main()
   
   cout << spadeCount << endl << endl;
 
-  int diamondTotal
+  int diamondTotal = accumulate(
+    
+  )
 }
