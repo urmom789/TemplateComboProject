@@ -74,5 +74,6 @@ int main()
     [](const PlayingCard &a, const PlayingCard &b){
       return a.suit < b.suit;
     });
-    
+
+  for (const PlayingCard &card : suitCards)
 }
