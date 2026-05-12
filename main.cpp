@@ -59,4 +59,5 @@ int main()
       return a.rank < b.rank;
     });
   
+  for (const PlayingCard &card : rankCards)
 }
