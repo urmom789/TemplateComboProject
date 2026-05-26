@@ -105,15 +105,14 @@ public:
   void remove(type item)
   {
     for (int i = 0; i < size; i++) {
-      if data[i] == item)
-        {
-          for (int j = i; j < size - 1; j++) {
-            data[j] = data[j + 1];
-          }
-
-          size--;
-          return;
+      if (data[i] == item) {
+        for (int j = i; j < size - 1; j++) {
+          data[j] = data[j + 1];
         }
+
+        size--;
+        return;
+      }
     }
   }
 }
