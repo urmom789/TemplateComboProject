@@ -110,6 +110,9 @@ public:
           for (int j = i; j < size - 1; j++) {
             data[j] = data[j + 1];
           }
+
+          size--;
+          return;
         }
     }
   }
