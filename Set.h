@@ -75,8 +75,12 @@ public:
   bool contains(type item) const
   {
     for (int i = 0; i < size; i++) {
-      if ()
+      if (data[i] = item) {
+        return true;
+      }
     }
+
+    return false;
   }
 }
 
