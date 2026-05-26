@@ -39,6 +39,45 @@ public:
   {
     delete[] data;
   }
+
+  Set(const Set<type>& other)
+  {
+    size = other.size;
+    capacity = other.capacity;
+
+    data = new type[capacity];
+
+    for (int i = 0; i < size; i++) {
+      data[i] = other.data[i];
+    }
+  }
+
+  Set<type>& operator=(const Set<type>& other)
+  {
+    if (this == &other) {
+      return *this;
+    }
+
+    delete[] data;
+
+    size = other.size;
+    capacity = other.capacity;
+
+    data = new type[capacity];
+
+    for (int i = 0; i < size; i++) {
+      data[i] = other.data[i];
+    }
+
+    return *this;
+  }
+
+  bool contains(type item) const
+  {
+    for (int i = 0; i < size; i++) {
+      if ()
+    }
+  }
 }
 
 #endif
