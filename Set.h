@@ -28,9 +28,9 @@ private:
   }
 
 public:
-  set()
+  Set()
   {
-    capacity = 0;
+    capacity = 8;
     size = 0;
     data = new type[capacity];
   }
@@ -72,10 +72,10 @@ public:
     return *this;
   }
 
-  bool contains(type item) const
+  bool contains(const type& item) const
   {
     for (int i = 0; i < size; i++) {
-      if (data[i] = item) {
+      if (data[i] == item) {
         return true;
       }
     }
@@ -83,7 +83,7 @@ public:
     return false;
   }
 
-  void add(type item)
+  void add(const type& item)
   {
     if (contains(item)) {
       return;
@@ -102,7 +102,7 @@ public:
     return size;
   }
 
-  void remove(type item)
+  void remove(const type& item)
   {
     for (int i = 0; i < size; i++) {
       if (data[i] == item) {
@@ -121,7 +121,7 @@ public:
     size = 0;
   }
 
-  type removeSmallert()
+  type removeSmallest()
   {
     if (size == 0) {
       throw runtime_error("Empty set");
@@ -179,7 +179,7 @@ public:
     return ss.str();
   }
 
-  Set<type> intersectionWidth(const Set<type>& other) const
+  Set<type> intersectionWith(const Set<type>& other) const
   {
     Set<type> result;
 
