@@ -92,6 +92,9 @@ public:
     if (size >= capacity) {
       grow();
     }
+
+    data[size] = item;
+    size++;
   }
 }
 
