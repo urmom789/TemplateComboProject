@@ -178,6 +178,18 @@ public:
 
     return ss.str();
   }
-}
+
+  Set<type> intersectionWidth(const Set<type>& other) const
+  {
+    Set<type> result;
+
+    for (int i = 0; i < size; i++) {
+      if (other.contains(data[i])) {
+        result.add(data[i]);
+      }
+    }
+    return result;
+  }
+};
 
 #endif
