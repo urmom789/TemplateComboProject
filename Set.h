@@ -115,6 +115,11 @@ public:
       }
     }
   }
+
+  void clear()
+  {
+    size = 0;
+  }
 }
 
 #endif
