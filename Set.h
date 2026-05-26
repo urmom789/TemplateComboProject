@@ -120,6 +120,15 @@ public:
   {
     size = 0;
   }
+
+  type removeSmallert()
+  {
+    if (size == 0) {
+      throw runtime_error("Empty set");
+    }
+
+    int smallestIndex = 0;
+  }
 }
 
 #endif
