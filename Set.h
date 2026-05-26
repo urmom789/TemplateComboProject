@@ -96,6 +96,11 @@ public:
     data[size] = item;
     size++;
   }
+
+  int getSize() const
+  {
+    return size;
+  }
 }
 
 #endif
