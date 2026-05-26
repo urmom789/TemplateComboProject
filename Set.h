@@ -26,6 +26,19 @@ private:
     delete[] data;
     data = temp;
   }
+
+public:
+  set()
+  {
+    capacity = 0;
+    size = 0;
+    data = new type[capacity];
+  }
+
+  ~Set()
+  {
+    delete[] data;
+  }
 }
 
 #endif
