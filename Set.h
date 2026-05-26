@@ -82,6 +82,17 @@ public:
 
     return false;
   }
+
+  void add(type item)
+  {
+    if (contains(item)) {
+      return;
+    }
+
+    if (size >= capacity) {
+      grow();
+    }
+  }
 }
 
 #endif
