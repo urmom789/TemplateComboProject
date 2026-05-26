@@ -159,6 +159,25 @@ public:
     }
     return true;
   }
+
+  string toString() const
+  {
+    stringstream ss;
+
+    ss << "{";
+
+    for (int i = 0; i < size; i++) {
+      ss << data[i];
+
+      if (i < size - 1) {
+        ss << ", ";
+      }
+    }
+
+    ss << "}";
+
+    return ss.str();
+  }
 }
 
 #endif
