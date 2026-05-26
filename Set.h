@@ -128,6 +128,14 @@ public:
     }
 
     int smallestIndex = 0;
+
+    for (int i = 1; i < size; i++) {
+      if (data[i] < data[smallestIndex]) {
+        smallestIndex = i;
+      }
+    }
+
+    type
   }
 }
 
