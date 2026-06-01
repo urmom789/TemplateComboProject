@@ -41,4 +41,9 @@ int main()
   cin >> col;
   cout << "Enter number of moves: ";
   cin >> N;
+
+  vector<int> rowMoves = {-2, -2, -1, -1, 1, 1, 2, 2};
+  vector<int> colMoves = {-1, 1, -2, 2, -2, 2, -1, 1};
+
+  vector<vector<int>> boardCounts(8, vector<int>(8, 0));
 }
