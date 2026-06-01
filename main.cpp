@@ -51,4 +51,6 @@ int main()
   vector<int> pathCols;
 
   cout << "\nPaths taken:\n";
+  findKnightPaths(row, col, N, pathRows, pathCols, boardCounts, rowMoves,
+                  colMoves);
 }
