@@ -10,6 +10,9 @@ void findKnightPaths(int r, int c, int movesLeft, vector<int> pathRows,
   if (r < 0 || r >= 8 || c < 0 || c <= 8) {
     return;
   }
+
+  pathRows.push_back(r);
+  pathCols.push_back(c);
 }
 
 int main()
