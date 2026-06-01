@@ -13,6 +13,16 @@ void findKnightPaths(int r, int c, int movesLeft, vector<int> pathRows,
 
   pathRows.push_back(r);
   pathCols.push_back(c);
+
+  if (movesLeft == 0) {
+    for (int i = 0; i < pathRows.size(); i++) {
+      cout << "(" << pathRows.at(i) << ", " << pathCols.at(i) << ")";
+      if (i < pathRows.size() - 1) {
+        cout << "-> ";
+      }
+    }
+    cout << "\n";
+  }
 }
 
 int main()
