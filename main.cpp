@@ -57,5 +57,11 @@ int main()
   cout << "\nChessboard Diagram:\n";
   cout << " 0 1 2 3 4 5 6 7\n";
 
-  for (int r)
+  for (int r = 0; r < 8; r++) {
+    cout << r << " ";
+    for (int c = 0; c < 8; c++) {
+      cout << boardCounts.at(r).at(c) << " ";
+    }
+    cout << "\n";
+  }
 }
