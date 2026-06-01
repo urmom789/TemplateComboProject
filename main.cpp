@@ -49,4 +49,6 @@ int main()
 
   vector<int> pathRows;
   vector<int> pathCols;
+
+  cout << "\nPaths taken:\n";
 }
