@@ -53,4 +53,9 @@ int main()
   cout << "\nPaths taken:\n";
   findKnightPaths(row, col, N, pathRows, pathCols, boardCounts, rowMoves,
                   colMoves);
+
+  cout << "\nChessboard Diagram:\n";
+  cout << " 0 1 2 3 4 5 6 7\n";
+
+  for (int r)
 }
