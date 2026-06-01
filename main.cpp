@@ -34,4 +34,11 @@ void findKnightPaths(int r, int c, int movesLeft, vector<int> pathRows,
 
 int main()
 {
+  int row, col, N;
+  cout << "Enter starting row (0-7): ";
+  cin >> row;
+  cout << "Enter starting column (0-7): ";
+  cin >> col;
+  cout << "Enter number of moves: ";
+  cin >> N;
 }
