@@ -46,4 +46,7 @@ int main()
   vector<int> colMoves = {-1, 1, -2, 2, -2, 2, -1, 1};
 
   vector<vector<int>> boardCounts(8, vector<int>(8, 0));
+
+  vector<int> pathRows;
+  vector<int> pathCols;
 }
