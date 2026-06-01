@@ -17,7 +17,7 @@ void findKnightPaths(int r, int c, int movesLeft, vector<int> pathRows,
   if (movesLeft == 0) {
     for (int i = 0; i < static_cast<int>(pathRows.size()); i++) {
       cout << "(" << pathRows.at(i) << ", " << pathCols.at(i) << ")";
-      if (i < pathRows.size() - 1) {
+      if (i < static_cast<int>(pathRows.size()) - 1) {
         cout << "-> ";
       }
     }
