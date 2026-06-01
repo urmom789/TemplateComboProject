@@ -23,6 +23,13 @@ void findKnightPaths(int r, int c, int movesLeft, vector<int> pathRows,
     }
     cout << "\n";
   }
+  for (int i = 0; i < 8; i++) {
+    int nextRow = r + rowMoves.at(i);
+    int nextCol = c + colMoves.at(i);
+
+    findKnightPaths(nextRow, nextCol, movesLeft - 1, pathRows, pathCols,
+                    boardCounts, rowMoves, colMoves);
+  }
 }
 
 int main()
